@@ -121,3 +121,5 @@ BEGIN
 END
 
 /*1.40.00*/
+
+EXEC bronze.load_bronze;
