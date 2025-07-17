@@ -1,12 +1,12 @@
-# 📊 Data Warehouse and Analytics Project
+# Data Warehouse and Analytics Project
 
 This project showcases a complete data warehousing and analytics pipeline — from ingesting data from multiple sources to delivering actionable insights. Designed as a portfolio project, it follows industry best practices in data engineering, data modeling, and analytics.
 
 ---
 
-## 🚧 Project Scope & Requirements
+## Project Scope & Requirements
 
-### 🏗️ Data Warehouse Construction
+### Data Warehouse Construction
 
 **Data Sources**: Import data from ERP and CRM systems (provided as CSV files).  
 **Data Quality**: Clean and resolve quality issues (e.g., duplicates, nulls, inconsistencies) before analysis.  
@@ -16,7 +16,7 @@ This project showcases a complete data warehousing and analytics pipeline — fr
 
 ---
 
-## 📈 Business Intelligence & Reporting (SQL-based Analytics)
+## Business Intelligence & Reporting (SQL-based Analytics)
 
 **Objective:**  
 Develop SQL-driven analytics to uncover key insights related to:
@@ -28,8 +28,12 @@ Develop SQL-driven analytics to uncover key insights related to:
 These insights empower stakeholders with meaningful business metrics and data-driven decision-making capabilities.
 
 ---
+## Some Important tools
+**Notion**:For preparing a detailed plan for project
+**draw.io**: For constructing important diagrams, schemas,architecture,data flow diagrams etc.
 
-## 📄 License
+---
+## License
 
 This project is licensed under the **MIT License**.  
 You are free to use, modify, and distribute it with proper attribution.
