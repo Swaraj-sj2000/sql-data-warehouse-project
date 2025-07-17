@@ -175,7 +175,7 @@ begin
 
         -------------------------------------------------------------------------------------
         PRINT '>>TRUNCATING Table silver.erp_px_cat_g1v2';
-        TRUNCATE TABLE silver.crm_cust_info ;
+        TRUNCATE TABLE silver.erp_px_cat_g1v2 ;
         PRINT '>>LOADING silver.erp_px_cat_g1v2';
         INSERT INTO silver.erp_px_cat_g1v2(id,cat,subcat,maintenance)
         SELECT
@@ -205,4 +205,6 @@ begin
 PRINT '>>TIME TAKEN TO LOAD silver schema: ' + CAST(DATEDIFF(SECOND, @batch_start, @batch_end) AS NVARCHAR) + ' seconds';
 end
 
+
+go
 exec silver.load_silver;
