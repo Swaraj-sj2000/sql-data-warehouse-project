@@ -35,9 +35,9 @@ The Gold Layer is the business-level data representation, structured to support 
 | product_number      | NVARCHAR(50)  | A structured alphanumeric code representing the product, often used for categorization or inventory. |
 | product_name        | NVARCHAR(50)  | Descriptive name of the product, including key details such as type, color, and size.         |
 | category_id         | NVARCHAR(50)  | A unique identifier for the product's category, linking to its high-level classification.     |
-| category            | NVARCHAR(50)  | The broader classification of the product (e.g., Bikes, Components) to group related items.  |
+| category            | NVARCHAR(50)  | The broader classification of the product to group related items.  |
 | subcategory         | NVARCHAR(50)  | A more detailed classification of the product within the category, such as product type.      |
-| maintenance_required| NVARCHAR(50)  | Indicates whether the product requires maintenance (e.g., 'Yes', 'No').                       |
+| maintenance_required| NVARCHAR(50)  | Indicates whether the product requires maintenance .                       |
 | cost                | INT           | The cost or base price of the product, measured in monetary units.                            |
 | product_line        | NVARCHAR(50)  | The specific product line or series to which the product belongs (e.g., Road, Mountain).      |
 | start_date          | DATE          | The date when the product became available for sale or use, stored in|
@@ -50,12 +50,12 @@ The Gold Layer is the business-level data representation, structured to support 
 
 | Column Name     | Data Type     | Description                                                                                   |
 |-----------------|---------------|-----------------------------------------------------------------------------------------------|
-| order_number    | NVARCHAR(50)  | A unique alphanumeric identifier for each sales order (e.g., 'SO54496').                      |
+| order_number    | NVARCHAR(50)  | A unique alphanumeric identifier for each sales order .                      |
 | product_key     | INT           | Surrogate key linking the order to the product dimension table.                               |
 | customer_key    | INT           | Surrogate key linking the order to the customer dimension table.                              |
 | order_date      | DATE          | The date when the order was placed.                                                           |
 | shipping_date   | DATE          | The date when the order was shipped to the customer.                                          |
 | due_date        | DATE          | The date when the order payment was due.                                                      |
 | sales_amount    | INT           | The total monetary value of the sale for the line item, in whole currency units (e.g., 25).   |
-| quantity        | INT           | The number of units of the product ordered for the line item (e.g., 1).                       |
+| quantity        | INT           | The number of units of the product ordered for the line item.                       |
 | price           | INT           | The price per unit of the product for the line item, in whole currency units (e.g., 25).      |
